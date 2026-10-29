@@ -19,3 +19,14 @@ This project focuses on supply chain data analysis and optimization, evaluating 
 ## 🚀 Key Insights
 - Identified key suppliers causing delivery delays.
 - Proposed optimizations to reduce total logistics costs by ~10%.
+- ## 📐 Core Inventory Model (EOQ)
+This project applies the **Economic Order Quantity (EOQ)** model to optimize inventory costs and balance holding versus ordering expenses:
+## 📐 Core Inventory Model (EOQ)
+This project applies the **Economic Order Quantity (EOQ)** model to optimize inventory costs and balance holding versus ordering expenses:
+
+- **Formula:** `EOQ = √(2 · D · S / H)`
+  - **D (Demand):** Annual quantity required.
+  - **S (Ordering Cost):** Fixed cost per order.
+  - **H (Holding Cost):** Annual storage cost per unit.
+
+- **Reorder Point (ROP):** `ROP = (Average Daily Usage × Lead Time) + Safety Stock`
